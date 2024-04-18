@@ -82,7 +82,7 @@ def save_forex(country_name: str, forex: dict) -> None:
     save_to_json(data / country_name, forex)
 
 
-if "__name__" == "__main__":
+if __name__ == "__main__":
     today = datetime.now()
 
     df = get_forex(today)
