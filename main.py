@@ -85,6 +85,8 @@ def save_forex(country_name: str, forex: dict) -> None:
 if __name__ == "__main__":
     today = datetime.now()
 
+    data.mkdir(parents=True, exist_ok=True)
+
     df = get_forex(today)
     all_forex = process_forex_as_json(df)
 
