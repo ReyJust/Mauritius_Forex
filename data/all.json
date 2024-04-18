@@ -1,0 +1,354 @@
+{
+    "AUSTRALIA": {
+        "rate_date": "Australia Dollars",
+        "currency": "AUD",
+        "code": 1,
+        "unit": 29.7,
+        "buy": {
+            "tt": 0,
+            "tc/dd": 29.34,
+            "notes": 31.16
+        },
+        "sell": {
+            "tt": 0,
+            "tc/dd": 31.16,
+            "notes": "18-Apr-2024 08:59"
+        }
+    },
+    "CANADA": {
+        "rate_date": "Canadian Dollar",
+        "currency": "CAD",
+        "code": 1,
+        "unit": 33.3,
+        "buy": {
+            "tt": 33.2,
+            "tc/dd": 32.8,
+            "notes": 34.93
+        },
+        "sell": {
+            "tt": 34.93,
+            "tc/dd": 34.93,
+            "notes": "18-Apr-2024 08:59"
+        }
+    },
+    "CHINA": {
+        "rate_date": "China Yuan Renminbi",
+        "currency": "CNY",
+        "code": 1,
+        "unit": 6.34,
+        "buy": {
+            "tt": 0,
+            "tc/dd": 0,
+            "notes": 6.66
+        },
+        "sell": {
+            "tt": 0,
+            "tc/dd": 0,
+            "notes": "18-Apr-2024 08:59"
+        }
+    },
+    "EUR COUNTRIES": {
+        "rate_date": "Euro",
+        "currency": "EUR",
+        "code": 1,
+        "unit": 49.14,
+        "buy": {
+            "tt": 49.02,
+            "tc/dd": 48.66,
+            "notes": 50.61
+        },
+        "sell": {
+            "tt": 50.61,
+            "tc/dd": 50.61,
+            "notes": "18-Apr-2024 08:59"
+        }
+    },
+    "GREAT BRITAIN": {
+        "rate_date": "Great Britain Pound",
+        "currency": "GBP",
+        "code": 1,
+        "unit": 57.39,
+        "buy": {
+            "tt": 57.25,
+            "tc/dd": 56.837,
+            "notes": 59.11
+        },
+        "sell": {
+            "tt": 59.11,
+            "tc/dd": 59.11,
+            "notes": "18-Apr-2024 08:59"
+        }
+    },
+    "HONG KONG": {
+        "rate_date": "Hong Kong Dollar",
+        "currency": "HKD",
+        "code": 1,
+        "unit": 5.82,
+        "buy": {
+            "tt": 0,
+            "tc/dd": 5.66,
+            "notes": 6.16
+        },
+        "sell": {
+            "tt": 0,
+            "tc/dd": 6.16,
+            "notes": "18-Apr-2024 08:59"
+        }
+    },
+    "INDIA": {
+        "rate_date": "India Rupee",
+        "currency": "INR",
+        "code": 1,
+        "unit": 0.5435,
+        "buy": {
+            "tt": 0,
+            "tc/dd": 0,
+            "notes": 0.5783
+        },
+        "sell": {
+            "tt": 0.5783,
+            "tc/dd": 0,
+            "notes": "18-Apr-2024 08:59"
+        }
+    },
+    "JAPAN": {
+        "rate_date": "Japan Yen",
+        "currency": "JPY",
+        "code": 100,
+        "unit": 29.68,
+        "buy": {
+            "tt": 0,
+            "tc/dd": 28.94,
+            "notes": 31.25
+        },
+        "sell": {
+            "tt": 0,
+            "tc/dd": 31.25,
+            "notes": "18-Apr-2024 08:59"
+        }
+    },
+    "KENYA": {
+        "rate_date": "Kenya Shilling",
+        "currency": "KES",
+        "code": 100,
+        "unit": 34.77,
+        "buy": {
+            "tt": 0,
+            "tc/dd": 0,
+            "notes": 36.23
+        },
+        "sell": {
+            "tt": 0,
+            "tc/dd": 0,
+            "notes": "18-Apr-2024 08:59"
+        }
+    },
+    "MADAGASCAR": {
+        "rate_date": "Malagasy Ariary",
+        "currency": "MGA",
+        "code": 100,
+        "unit": 1.06,
+        "buy": {
+            "tt": 0,
+            "tc/dd": 0,
+            "notes": 1.12
+        },
+        "sell": {
+            "tt": 0,
+            "tc/dd": 0,
+            "notes": "18-Apr-2024 08:59"
+        }
+    },
+    "NEW ZEALAND": {
+        "rate_date": "Cook Islands New Zealand Dollars",
+        "currency": "NZD",
+        "code": 1,
+        "unit": 27.13,
+        "buy": {
+            "tt": 0,
+            "tc/dd": 26.66,
+            "notes": 28.41
+        },
+        "sell": {
+            "tt": 0,
+            "tc/dd": 28.41,
+            "notes": "18-Apr-2024 08:59"
+        }
+    },
+    "NORWAY": {
+        "rate_date": "Bouvet Island Norway Kroner",
+        "currency": "NOK",
+        "code": 1,
+        "unit": 4.11,
+        "buy": {
+            "tt": 0,
+            "tc/dd": 3.99,
+            "notes": 4.34
+        },
+        "sell": {
+            "tt": 0,
+            "tc/dd": 4.34,
+            "notes": "18-Apr-2024 08:59"
+        }
+    },
+    "PAKISTAN": {
+        "rate_date": "Pakistan Rupees",
+        "currency": "PKR",
+        "code": 100,
+        "unit": 16.44,
+        "buy": {
+            "tt": 0,
+            "tc/dd": 0,
+            "notes": 17.4
+        },
+        "sell": {
+            "tt": 0,
+            "tc/dd": 0,
+            "notes": "18-Apr-2024 08:59"
+        }
+    },
+    "SAUDI ARABIA": {
+        "rate_date": "Saudi Arabia Riyals",
+        "currency": "SAR",
+        "code": 1,
+        "unit": 12.21,
+        "buy": {
+            "tt": 0,
+            "tc/dd": 11.9,
+            "notes": 12.92
+        },
+        "sell": {
+            "tt": 0,
+            "tc/dd": 12.92,
+            "notes": "18-Apr-2024 08:59"
+        }
+    },
+    "SEYCHELLES": {
+        "rate_date": "Seychelles Rupees",
+        "currency": "SCR",
+        "code": 1,
+        "unit": 3.23,
+        "buy": {
+            "tt": 0,
+            "tc/dd": 2.97,
+            "notes": 3.54
+        },
+        "sell": {
+            "tt": 0,
+            "tc/dd": 3.54,
+            "notes": "18-Apr-2024 08:59"
+        }
+    },
+    "SINGAPORE": {
+        "rate_date": "Singapore Dollars",
+        "currency": "SGD",
+        "code": 1,
+        "unit": 33.53,
+        "buy": {
+            "tt": 0,
+            "tc/dd": 33.28,
+            "notes": 35.31
+        },
+        "sell": {
+            "tt": 0,
+            "tc/dd": 35.31,
+            "notes": "18-Apr-2024 08:59"
+        }
+    },
+    "SOUTH AFRICA": {
+        "rate_date": "South Africa Rand",
+        "currency": "ZAR",
+        "code": 1,
+        "unit": 2.41,
+        "buy": {
+            "tt": 0,
+            "tc/dd": 2.36,
+            "notes": 2.57
+        },
+        "sell": {
+            "tt": 0,
+            "tc/dd": 2.57,
+            "notes": "18-Apr-2024 08:59"
+        }
+    },
+    "SRI LANKA": {
+        "rate_date": "Sri Lanka Rupee",
+        "currency": "LKR",
+        "code": 100,
+        "unit": 15.19,
+        "buy": {
+            "tt": 0,
+            "tc/dd": 0,
+            "notes": 15.9
+        },
+        "sell": {
+            "tt": 0,
+            "tc/dd": 0,
+            "notes": "18-Apr-2024 08:59"
+        }
+    },
+    "SWEDEN": {
+        "rate_date": "Sweden Kronor",
+        "currency": "SEK",
+        "code": 1,
+        "unit": 4.15,
+        "buy": {
+            "tt": 0,
+            "tc/dd": 4.03,
+            "notes": 4.35
+        },
+        "sell": {
+            "tt": 0,
+            "tc/dd": 4.35,
+            "notes": "18-Apr-2024 08:59"
+        }
+    },
+    "SWITZERLAND": {
+        "rate_date": "Switzerland Franc",
+        "currency": "CHF",
+        "code": 1,
+        "unit": 50.08,
+        "buy": {
+            "tt": 0,
+            "tc/dd": 49.58,
+            "notes": 52.73
+        },
+        "sell": {
+            "tt": 0,
+            "tc/dd": 52.73,
+            "notes": "18-Apr-2024 08:59"
+        }
+    },
+    "TANZANIA": {
+        "rate_date": "Tanzania Shillings",
+        "currency": "TZS",
+        "code": 100,
+        "unit": 1.78,
+        "buy": {
+            "tt": 0,
+            "tc/dd": 0,
+            "notes": 1.87
+        },
+        "sell": {
+            "tt": 0,
+            "tc/dd": 0,
+            "notes": "18-Apr-2024 08:59"
+        }
+    },
+    "UNITED ARAB EMIRATES": {
+        "rate_date": "UAE Dirham",
+        "currency": "AED",
+        "code": 1,
+        "unit": 12.53,
+        "buy": {
+            "tt": 0,
+            "tc/dd": 11.6,
+            "notes": 13.12
+        },
+        "sell": {
+            "tt": 0,
+            "tc/dd": 13.12,
+            "notes": "18-Apr-2024 08:59"
+        }
+    }
+}
