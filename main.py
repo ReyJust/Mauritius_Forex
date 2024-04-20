@@ -96,3 +96,5 @@ if __name__ == "__main__":
     save_forex("all", all_forex)
     for country, forex in all_forex.items():
         save_forex(country, forex)
+    
+    exit(0)
