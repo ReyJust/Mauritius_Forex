@@ -23,12 +23,15 @@ def get_forex(start_date: datetime, end_date: datetime | None = None) -> pd.Data
         "BaseCurrency": "MUR",
     }
 
-    res = requests.post(url, json=payload, stream=True)
+    try:
+        res = requests.post(url, json=payload, stream=True)
 
-    xlsx_stream = BytesIO(res.content)
-    df = pd.read_excel(xlsx_stream)
+        xlsx_stream = BytesIO(res.content)
+        df = pd.read_excel(xlsx_stream)
 
-    return df
+        return df
+    except:
+        raise Exception("Failed to fetch Forex data")
 
 
 def process_forex_as_json(df: pd.DataFrame) -> dict:
