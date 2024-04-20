@@ -52,8 +52,7 @@ def process_forex_as_json(df: pd.DataFrame) -> dict:
     ]
 
     all_forex = {}
-    for index, row in df.iterrows():
-        country_name = row["Country_Name"]
+        country_name = row["Country_Name"].lower().replace(" ", "_")
         all_forex[country_name] = {
             "rate_date": row["rate_date"],
             "currency": row["currency"],
@@ -80,7 +79,7 @@ def save_to_json(filepath: Path, data: dict) -> None:
 
 
 def save_forex(country_name: str, forex: dict) -> None:
-    country_name = urllib.parse.quote(country_name.lower().replace(" ", "_"))
+    country_name = urllib.parse.quote(country_name)
 
     save_to_json(data / country_name, forex)
 
