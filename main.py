@@ -36,8 +36,16 @@ def get_forex(start_date: datetime, end_date: datetime | None = None) -> pd.Data
 
 def process_forex_as_json(df: pd.DataFrame) -> dict:
     print("2. Processing Forex")
-    df = df[8:30]
-    df.columns = [
+
+    forex_table = df.copy()
+    forex_table = forex_table[8:]
+
+    # ? We keep part above the first full line of nulls.
+    # ? Allow the file to have an undetermined number of countries
+    forex_table_end = forex_table.isnull().all(axis=1).idxmax()
+    forex_table = forex_table.loc[:forex_table_end -1]
+
+    forex_table.columns = [
         "Country_Name",
         "rate_date",
         "currency",
@@ -52,7 +60,9 @@ def process_forex_as_json(df: pd.DataFrame) -> dict:
     ]
 
     all_forex = {}
+    for index, row in forex_table.iterrows():
         country_name = row["Country_Name"].lower().replace(" ", "_")
+
         all_forex[country_name] = {
             "rate_date": row["rate_date"],
             "currency": row["currency"],
@@ -90,7 +100,11 @@ if __name__ == "__main__":
     data.mkdir(parents=True, exist_ok=True)
 
     df = get_forex(today)
+
     all_forex = process_forex_as_json(df)
+    if (len(all_forex) == 0):
+        print("No Forex data")
+        exit(0)
 
     print("3. Saving Forex")
     save_forex("all", all_forex)
