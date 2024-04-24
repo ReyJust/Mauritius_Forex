@@ -3,224 +3,224 @@
         "rate_date": "Australia Dollars",
         "currency": "AUD",
         "code": 1,
-        "unit": 29.78,
+        "unit": 29.92,
         "buy": {
             "tt": 0,
-            "tc/dd": 29.42,
-            "notes": 31.24
+            "tc/dd": 29.56,
+            "notes": 31.39
         },
         "sell": {
             "tt": 0,
-            "tc/dd": 31.24,
-            "notes": "23-Apr-2024 09:00"
+            "tc/dd": 31.39,
+            "notes": "24-Apr-2024 09:06"
         }
     },
     "canada": {
         "rate_date": "Canadian Dollar",
         "currency": "CAD",
         "code": 1,
-        "unit": 33.49,
+        "unit": 33.43,
         "buy": {
-            "tt": 33.39,
-            "tc/dd": 32.99,
-            "notes": 35.13
+            "tt": 33.33,
+            "tc/dd": 32.93,
+            "notes": 35.07
         },
         "sell": {
-            "tt": 35.13,
-            "tc/dd": 35.13,
-            "notes": "23-Apr-2024 09:00"
+            "tt": 35.07,
+            "tc/dd": 35.07,
+            "notes": "24-Apr-2024 09:06"
         }
     },
     "china": {
         "rate_date": "China Yuan Renminbi",
         "currency": "CNY",
         "code": 1,
-        "unit": 6.35,
+        "unit": 6.31,
         "buy": {
             "tt": 0,
             "tc/dd": 0,
-            "notes": 6.68
+            "notes": 6.63
         },
         "sell": {
             "tt": 0,
             "tc/dd": 0,
-            "notes": "23-Apr-2024 09:00"
+            "notes": "24-Apr-2024 09:06"
         }
     },
     "eur_countries": {
         "rate_date": "Euro",
         "currency": "EUR",
         "code": 1,
-        "unit": 49.13,
+        "unit": 49.15,
         "buy": {
-            "tt": 49.01,
-            "tc/dd": 48.65,
-            "notes": 50.6
+            "tt": 49.03,
+            "tc/dd": 48.67,
+            "notes": 50.62
         },
         "sell": {
-            "tt": 50.6,
-            "tc/dd": 50.6,
-            "notes": "23-Apr-2024 09:00"
+            "tt": 50.62,
+            "tc/dd": 50.62,
+            "notes": "24-Apr-2024 09:06"
         }
     },
     "great_britain": {
         "rate_date": "Great Britain Pound",
         "currency": "GBP",
         "code": 1,
-        "unit": 56.95,
+        "unit": 57.17,
         "buy": {
-            "tt": 56.81,
-            "tc/dd": 56.404,
-            "notes": 58.66
+            "tt": 57.03,
+            "tc/dd": 56.625,
+            "notes": 58.89
         },
         "sell": {
-            "tt": 58.66,
-            "tc/dd": 58.66,
-            "notes": "23-Apr-2024 09:00"
+            "tt": 58.89,
+            "tc/dd": 58.89,
+            "notes": "24-Apr-2024 09:06"
         }
     },
     "hong_kong": {
         "rate_date": "Hong Kong Dollar",
         "currency": "HKD",
         "code": 1,
-        "unit": 5.82,
+        "unit": 5.8,
         "buy": {
             "tt": 0,
-            "tc/dd": 5.66,
-            "notes": 6.16
+            "tc/dd": 5.64,
+            "notes": 6.14
         },
         "sell": {
             "tt": 0,
-            "tc/dd": 6.16,
-            "notes": "23-Apr-2024 09:00"
+            "tc/dd": 6.14,
+            "notes": "24-Apr-2024 09:06"
         }
     },
     "india": {
         "rate_date": "India Rupee",
         "currency": "INR",
         "code": 1,
-        "unit": 0.5458,
+        "unit": 0.5436,
         "buy": {
             "tt": 0,
             "tc/dd": 0,
-            "notes": 0.5807
+            "notes": 0.5784
         },
         "sell": {
-            "tt": 0.5807,
+            "tt": 0.5784,
             "tc/dd": 0,
-            "notes": "23-Apr-2024 09:00"
+            "notes": "24-Apr-2024 09:06"
         }
     },
     "japan": {
         "rate_date": "Japan Yen",
         "currency": "JPY",
         "code": 100,
-        "unit": 29.64,
+        "unit": 29.49,
         "buy": {
             "tt": 0,
-            "tc/dd": 28.9,
-            "notes": 31.21
+            "tc/dd": 28.75,
+            "notes": 31.05
         },
         "sell": {
             "tt": 0,
-            "tc/dd": 31.21,
-            "notes": "23-Apr-2024 09:00"
+            "tc/dd": 31.05,
+            "notes": "24-Apr-2024 09:06"
         }
     },
     "kenya": {
         "rate_date": "Kenya Shilling",
         "currency": "KES",
         "code": 100,
-        "unit": 34.44,
+        "unit": 34.16,
         "buy": {
             "tt": 0,
             "tc/dd": 0,
-            "notes": 35.89
+            "notes": 35.59
         },
         "sell": {
             "tt": 0,
             "tc/dd": 0,
-            "notes": "23-Apr-2024 09:00"
+            "notes": "24-Apr-2024 09:06"
         }
     },
     "madagascar": {
         "rate_date": "Malagasy Ariary",
         "currency": "MGA",
         "code": 100,
-        "unit": 1.07,
+        "unit": 1.06,
         "buy": {
             "tt": 0,
             "tc/dd": 0,
-            "notes": 1.13
+            "notes": 1.12
         },
         "sell": {
             "tt": 0,
             "tc/dd": 0,
-            "notes": "23-Apr-2024 09:00"
+            "notes": "24-Apr-2024 09:06"
         }
     },
     "new_zealand": {
         "rate_date": "Cook Islands New Zealand Dollars",
         "currency": "NZD",
         "code": 1,
-        "unit": 27.15,
+        "unit": 27.14,
         "buy": {
             "tt": 0,
             "tc/dd": 26.67,
-            "notes": 28.43
+            "notes": 28.42
         },
         "sell": {
             "tt": 0,
-            "tc/dd": 28.43,
-            "notes": "23-Apr-2024 09:00"
+            "tc/dd": 28.42,
+            "notes": "24-Apr-2024 09:06"
         }
     },
     "norway": {
         "rate_date": "Bouvet Island Norway Kroner",
         "currency": "NOK",
         "code": 1,
-        "unit": 4.11,
+        "unit": 4.13,
         "buy": {
             "tt": 0,
-            "tc/dd": 3.99,
-            "notes": 4.34
+            "tc/dd": 4.01,
+            "notes": 4.36
         },
         "sell": {
             "tt": 0,
-            "tc/dd": 4.34,
-            "notes": "23-Apr-2024 09:00"
+            "tc/dd": 4.36,
+            "notes": "24-Apr-2024 09:06"
         }
     },
     "pakistan": {
         "rate_date": "Pakistan Rupees",
         "currency": "PKR",
         "code": 100,
-        "unit": 16.46,
+        "unit": 16.39,
         "buy": {
             "tt": 0,
             "tc/dd": 0,
-            "notes": 17.42
+            "notes": 17.35
         },
         "sell": {
             "tt": 0,
             "tc/dd": 0,
-            "notes": "23-Apr-2024 09:00"
+            "notes": "24-Apr-2024 09:06"
         }
     },
     "saudi_arabia": {
         "rate_date": "Saudi Arabia Riyals",
         "currency": "SAR",
         "code": 1,
-        "unit": 12.23,
+        "unit": 12.18,
         "buy": {
             "tt": 0,
-            "tc/dd": 11.92,
-            "notes": 12.94
+            "tc/dd": 11.88,
+            "notes": 12.89
         },
         "sell": {
             "tt": 0,
-            "tc/dd": 12.94,
-            "notes": "23-Apr-2024 09:00"
+            "tc/dd": 12.89,
+            "notes": "24-Apr-2024 09:06"
         }
     },
     "seychelles": {
@@ -236,135 +236,135 @@
         "sell": {
             "tt": 0,
             "tc/dd": 3.54,
-            "notes": "23-Apr-2024 09:00"
+            "notes": "24-Apr-2024 09:06"
         }
     },
     "singapore": {
         "rate_date": "Singapore Dollars",
         "currency": "SGD",
         "code": 1,
-        "unit": 33.53,
+        "unit": 33.42,
         "buy": {
             "tt": 0,
-            "tc/dd": 33.28,
-            "notes": 35.31
+            "tc/dd": 33.17,
+            "notes": 35.19
         },
         "sell": {
             "tt": 0,
-            "tc/dd": 35.31,
-            "notes": "23-Apr-2024 09:00"
+            "tc/dd": 35.19,
+            "notes": "24-Apr-2024 09:06"
         }
     },
     "south_africa": {
         "rate_date": "South Africa Rand",
         "currency": "ZAR",
         "code": 1,
-        "unit": 2.39,
+        "unit": 2.4,
         "buy": {
             "tt": 0,
-            "tc/dd": 2.34,
-            "notes": 2.55
+            "tc/dd": 2.35,
+            "notes": 2.56
         },
         "sell": {
             "tt": 0,
-            "tc/dd": 2.55,
-            "notes": "23-Apr-2024 09:00"
+            "tc/dd": 2.56,
+            "notes": "24-Apr-2024 09:06"
         }
     },
     "sri_lanka": {
         "rate_date": "Sri Lanka Rupee",
         "currency": "LKR",
         "code": 100,
-        "unit": 15.27,
+        "unit": 15.25,
         "buy": {
             "tt": 0,
             "tc/dd": 0,
-            "notes": 15.99
+            "notes": 15.97
         },
         "sell": {
             "tt": 0,
             "tc/dd": 0,
-            "notes": "23-Apr-2024 09:00"
+            "notes": "24-Apr-2024 09:06"
         }
     },
     "sweden": {
         "rate_date": "Sweden Kronor",
         "currency": "SEK",
         "code": 1,
-        "unit": 4.17,
+        "unit": 4.18,
         "buy": {
             "tt": 0,
-            "tc/dd": 4.05,
-            "notes": 4.37
+            "tc/dd": 4.06,
+            "notes": 4.38
         },
         "sell": {
             "tt": 0,
-            "tc/dd": 4.37,
-            "notes": "23-Apr-2024 09:00"
+            "tc/dd": 4.38,
+            "notes": "24-Apr-2024 09:06"
         }
     },
     "switzerland": {
         "rate_date": "Switzerland Franc",
         "currency": "CHF",
         "code": 1,
-        "unit": 50.04,
+        "unit": 49.83,
         "buy": {
             "tt": 0,
-            "tc/dd": 49.54,
-            "notes": 52.69
+            "tc/dd": 49.33,
+            "notes": 52.47
         },
         "sell": {
             "tt": 0,
-            "tc/dd": 52.69,
-            "notes": "23-Apr-2024 09:00"
+            "tc/dd": 52.47,
+            "notes": "24-Apr-2024 09:06"
         }
     },
     "tanzania": {
         "rate_date": "Tanzania Shillings",
         "currency": "TZS",
         "code": 100,
-        "unit": 1.78,
+        "unit": 1.77,
         "buy": {
             "tt": 0,
             "tc/dd": 0,
-            "notes": 1.87
+            "notes": 1.86
         },
         "sell": {
             "tt": 0,
             "tc/dd": 0,
-            "notes": "23-Apr-2024 09:00"
+            "notes": "24-Apr-2024 09:06"
         }
     },
     "united_arab_emirates": {
         "rate_date": "UAE Dirham",
         "currency": "AED",
         "code": 1,
-        "unit": 12.55,
+        "unit": 12.5,
         "buy": {
             "tt": 0,
-            "tc/dd": 11.62,
-            "notes": 13.14
+            "tc/dd": 11.58,
+            "notes": 13.09
         },
         "sell": {
             "tt": 0,
-            "tc/dd": 13.14,
-            "notes": "23-Apr-2024 09:00"
+            "tc/dd": 13.09,
+            "notes": "24-Apr-2024 09:06"
         }
     },
     "usa": {
         "rate_date": "United States Dollars",
         "currency": "USD",
         "code": 1,
-        "unit": 46.1,
+        "unit": 45.9,
         "buy": {
             "tt": 0,
-            "tc/dd": 45.9,
-            "notes": 47
+            "tc/dd": 45.7,
+            "notes": 46.8
         },
         "sell": {
-            "tt": 47,
-            "tc/dd": 47.47,
-            "notes": "23-Apr-2024 09:00"
+            "tt": 46.8,
+            "tc/dd": 47.268,
+            "notes": "24-Apr-2024 09:06"
         }
     }
 }
