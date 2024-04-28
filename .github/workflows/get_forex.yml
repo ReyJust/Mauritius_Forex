@@ -4,7 +4,7 @@ on:
   push:
   workflow_dispatch:
   schedule:
-    - cron: "0 2-14 * * *"
+    - cron: "0 2-14/2 * * 1-5" # Forex is only during buisness days.
 
 jobs:
   run_script:
