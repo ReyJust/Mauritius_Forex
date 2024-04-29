@@ -1,7 +1,7 @@
-# MCB Forex
+# Mauritius Forex
 
-Get the forex of the mcb website but as JSON. Don't deal with that Excel file.
-Updated every 2 hour from 6am to 18pm on buisness days.
+Get the forex of the any bank but a suitable JSON format! All that scraping is done for you.
+Updates every 2 hour from 6am to 18pm on buisness days.
 
 # Usage
 
