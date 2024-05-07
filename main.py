@@ -17,6 +17,16 @@ def get_bank_mapping() -> dict:
     return bank_mapping
 
 
+def get_local_forex(filepath: Path) -> dict:
+    forex = {}
+    filepath = filepath.with_suffix(".json")
+
+    if filepath.exists():
+        with open(filepath, "r") as f:
+            forex = json.load(f)
+
+    return forex
+
 def merge_url_query_params(url: str, additional_params: dict) -> str:
     url_components = urlparse(url)
     original_params = parse_qs(url_components.query)
@@ -143,12 +153,17 @@ def save_to_json(filepath: Path, data: dict) -> None:
 
 
 def save_forex(
-    data_dir: Path,
-    country_name: str,
-    forex: dict,
-    add_dt: datetime = None
+    data_dir: Path, country_name: str, forex: dict, add_dt: datetime = None
 ) -> None:
     country_name = urllib.parse.quote(country_name)
+
+    previous_forex = get_local_forex(data_dir / country_name)
+    # Remove the key last_update_dt
+    previous_forex.pop("last_update_dt", None)
+
+    # If the data is the same, we don't save it
+    if previous_forex == forex:
+        return None
 
     if add_dt:
         forex = {"last_update_dt": add_dt.isoformat(), **forex}
@@ -166,7 +181,7 @@ if __name__ == "__main__":
     print("1. Scrapping Forex")
     all_forex = scrap_forex(bank_mapping, today)
 
-    if (all_forex == {}):
+    if all_forex == {}:
         print("No Forex data")
         exit(0)
 
