@@ -1,5 +1,5 @@
 {
-    "last_update_dt": "2024-07-15T06:18:51.094392",
+    "last_update_dt": "2024-07-15T08:15:41.432373",
     "forex": {
         "australia": {
             "buy": {
@@ -164,6 +164,61 @@
             "sell": {
                 "ttddtc": 4.731,
                 "notes": 4.731
+            }
+        },
+        "switzerland": {
+            "buy": {
+                "tt": 51.0243,
+                "tcdd": 50.9239,
+                "notes": 50.8197
+            },
+            "sell": {
+                "ttddtc": 53.2147,
+                "notes": 53.2147
+            }
+        },
+        "ua_emirates": {
+            "buy": {
+                "tt": 12.4675,
+                "tcdd": 12.3414,
+                "notes": 11.9343
+            },
+            "sell": {
+                "ttddtc": 13.0716,
+                "notes": 13.0716
+            }
+        },
+        "uk": {
+            "buy": {
+                "tt": 60.4273,
+                "tcdd": 60.2429,
+                "notes": 60.0585
+            },
+            "sell": {
+                "ttddtc": 62.21,
+                "notes": 62.21
+            }
+        },
+        "usa": {
+            "buy": {
+                "tt": 46.18,
+                "tcdd": 46.08,
+                "notes": 45.93
+            },
+            "sell": {
+                "ttddtc": 47.08,
+                "notes": 47.5693
+            }
+        },
+        "uganda": {
+            "buy": {
+                "tt": 1.2304,
+                "tcdd": null,
+                "notes": null
+            },
+            "sell": {
+                "ttddtc": 1.2935,
+                "notes": null
             }
         }
     }
