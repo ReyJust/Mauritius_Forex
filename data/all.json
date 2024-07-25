@@ -1,5 +1,5 @@
 {
-    "last_update_dt": "2024-07-25T06:17:24.846754",
+    "last_update_dt": "2024-07-25T08:15:44.780161",
     "forex": {
         "abc": {
             "forex": {
@@ -3461,6 +3461,186 @@
                     "sell": {
                         "ttddtc": 8.38,
                         "notes": null
+                    }
+                }
+            }
+        },
+        "tcook": {
+            "forex": {
+                "australia": {
+                    "buy": {
+                        "tt": null,
+                        "tcdd": null,
+                        "notes": 27.549
+                    },
+                    "sell": {
+                        "ttddtc": 32.21,
+                        "notes": 32.21
+                    }
+                },
+                "canada": {
+                    "buy": {
+                        "tt": null,
+                        "tcdd": null,
+                        "notes": 30.033
+                    },
+                    "sell": {
+                        "ttddtc": 35.11,
+                        "notes": 35.11
+                    }
+                },
+                "china": {
+                    "buy": {
+                        "tt": null,
+                        "tcdd": null,
+                        "notes": 4.5
+                    },
+                    "sell": {
+                        "ttddtc": 7.5,
+                        "notes": 7.5
+                    }
+                },
+                "emu": {
+                    "buy": {
+                        "tt": 50.98,
+                        "tcdd": null,
+                        "notes": 48.203
+                    },
+                    "sell": {
+                        "ttddtc": 52.5094,
+                        "notes": 53.26
+                    }
+                },
+                "hong_kong": {
+                    "buy": {
+                        "tt": null,
+                        "tcdd": null,
+                        "notes": 5.382
+                    },
+                    "sell": {
+                        "ttddtc": 6.22,
+                        "notes": 6.22
+                    }
+                },
+                "india": {
+                    "buy": {
+                        "tt": null,
+                        "tcdd": null,
+                        "notes": 0.4
+                    },
+                    "sell": {
+                        "ttddtc": 0.7,
+                        "notes": 0.7
+                    }
+                },
+                "japan": {
+                    "buy": {
+                        "tt": 30.58,
+                        "tcdd": null,
+                        "notes": 27.657
+                    },
+                    "sell": {
+                        "ttddtc": 32.2,
+                        "notes": 32.2
+                    }
+                },
+                "malaysia": {
+                    "buy": {
+                        "tt": null,
+                        "tcdd": null,
+                        "notes": 6.5
+                    },
+                    "sell": {
+                        "ttddtc": 11.0,
+                        "notes": 11.0
+                    }
+                },
+                "new_zealand": {
+                    "buy": {
+                        "tt": null,
+                        "tcdd": null,
+                        "notes": 24.552
+                    },
+                    "sell": {
+                        "ttddtc": 28.56,
+                        "notes": 28.56
+                    }
+                },
+                "saudi_arabia": {
+                    "buy": {
+                        "tt": null,
+                        "tcdd": null,
+                        "notes": 11.061
+                    },
+                    "sell": {
+                        "ttddtc": 13.1,
+                        "notes": 13.1
+                    }
+                },
+                "singapore": {
+                    "buy": {
+                        "tt": null,
+                        "tcdd": null,
+                        "notes": 30.717
+                    },
+                    "sell": {
+                        "ttddtc": 35.94,
+                        "notes": 35.94
+                    }
+                },
+                "south_africa": {
+                    "buy": {
+                        "tt": 2.51,
+                        "tcdd": null,
+                        "notes": 2.259
+                    },
+                    "sell": {
+                        "ttddtc": 2.72,
+                        "notes": 2.72
+                    }
+                },
+                "switzerland": {
+                    "buy": {
+                        "tt": 52.21,
+                        "tcdd": null,
+                        "notes": 49.5995
+                    },
+                    "sell": {
+                        "ttddtc": 55.08,
+                        "notes": 55.08
+                    }
+                },
+                "ua_emirates": {
+                    "buy": {
+                        "tt": null,
+                        "tcdd": null,
+                        "notes": 11.349
+                    },
+                    "sell": {
+                        "ttddtc": 13.3,
+                        "notes": 13.3
+                    }
+                },
+                "uk": {
+                    "buy": {
+                        "tt": 60.58,
+                        "tcdd": null,
+                        "notes": 57.3135
+                    },
+                    "sell": {
+                        "ttddtc": 62.3974,
+                        "notes": 63.14
+                    }
+                },
+                "usa": {
+                    "buy": {
+                        "tt": 46.94,
+                        "tcdd": null,
+                        "notes": 44.593
+                    },
+                    "sell": {
+                        "ttddtc": 47.9962,
+                        "notes": 48.702
                     }
                 }
             }
