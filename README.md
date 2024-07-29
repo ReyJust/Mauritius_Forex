@@ -1,6 +1,6 @@
 # Mauritius Forex
 
-Get the forex of the any bank but a suitable JSON format! All that scraping is done for you.
+Instantly get Forex rate of any bank of Mauritius in JSON! All that scraping is done for you. You just need to request urls.
 Updates every 2 hour from 6am to 18pm on buisness days.
 
 # Usage
