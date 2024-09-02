@@ -5,27 +5,31 @@ Updates every 2 hour from 6am to 18pm on buisness days.
 
 # Usage
 
-## Get all forex
+## Get all forex by country/currency_code
+
+Either use `countries_all.json` or `currencies_all.json`
 
 ```sh
-curl https://raw.githubusercontent.com/ReyJust/Mauritius_Forex/main/data/all.json
+curl https://raw.githubusercontent.com/ReyJust/Mauritius_Forex/main/data/{countries_all/currencies_all}.json
 ```
 
-## Get all forex for a single bank
+## Get all forex by country/currency_code for a single bank
+
+Either use `countries_all.json` or `currencies_all.json`
 
 ```sh
-curl https://raw.githubusercontent.com/ReyJust/Mauritius_Forex/main/data/{bank_initial}/all.json
+curl https://raw.githubusercontent.com/ReyJust/Mauritius_Forex/main/data/{bank_initial}/{countries_all/currencies_all}.json
 ```
 
 To view a list of `bank_initials`, please view the [Bank mapping](#bank-mapping). Note that all banks forex might not be available.
 
-## Get a country forex for a single bank
+## Get forex for a single bank for a single country/currency_code
 
 ```sh
-curl https://raw.githubusercontent.com/ReyJust/Mauritius_Forex/main/data/{bank_initial}/{country_name}.json
+curl https://raw.githubusercontent.com/ReyJust/Mauritius_Forex/main/data/{bank_initial}/{country_name/currency_code}.json
 ```
 
-To view a list of `country_name`, please view the [Country list](#country-list). That list is subject to changes. It depends on the BOM website content.
+To view a list of `country_name` or `currency_code`, please view the [Country/Currency Codes list](#countrycurrency-codes-list).
 
 # Bank Mapping
 
@@ -54,7 +58,7 @@ To view a list of `country_name`, please view the [Country list](#country-list).
 | The Mauritius Commercial Bank Limited      | mcb           |
 | Thomas Cook                                | tcook         |
 
-# Country List
+# Country/Currency Codes List
 
 | Countries    | Currency Code |
 | ------------ | ------------- |
@@ -76,6 +80,8 @@ To view a list of `country_name`, please view the [Country list](#country-list).
 | ua_emirates  | AED           |
 | uk           | GBP           |
 | usa          | USD           |
+
+> ⚠️ These lists are subject to changes. It depends on the BOM website content.
 
 # DISCLAIMER
 
