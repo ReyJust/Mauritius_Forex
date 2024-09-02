@@ -45,6 +45,7 @@ To view a list of `country_name`, please view the [Country list](#country-list).
 | Hong Kong and Shanghai Banking Corporation | hsbc          |
 | MauBank Ltd                                | maubank       |
 | Mauritius Post Foreign Exchange Co Ltd     | mpfec         |
+| Banque Patronus Limitée                    | patronus      |
 | SBI (Mauritius) Ltd                        | sbim          |
 | Shibani Finance                            | shib          |
 | Standard Bank (Mauritius) Limited          | sbl           |
