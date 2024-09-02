@@ -17,6 +17,13 @@ def get_bank_mapping() -> dict:
     return bank_mapping
 
 
+def get_currency_mapping() -> dict:
+    with open("currency.json", "r") as f:
+        bank_mapping = json.load(f)
+
+    return bank_mapping
+
+
 def get_local_forex(filepath: Path) -> dict:
     forex = {}
     filepath = filepath.with_suffix(".json")
@@ -26,6 +33,7 @@ def get_local_forex(filepath: Path) -> dict:
             forex = json.load(f)
 
     return forex
+
 
 def merge_url_query_params(url: str, additional_params: dict) -> str:
     url_components = urlparse(url)
@@ -63,11 +71,14 @@ def get_web_page_content(url: str) -> str:
     return page.read().decode("utf-8")
 
 
-def scrap_forex_page(soup, image_initial_mapping: dict) -> dict:
+def scrap_forex_page(
+    soup, image_initial_mapping: dict, currency_mapping: dict
+) -> tuple[dict]:
     forex_content = soup.select_one("div.view.view-indicative-exchange-rate")
     forex_by_bank = forex_content.select("div.views-row")
 
-    forex_data = {}
+    bank_forex_by_country = {}
+    bank_forex_by_currency = {}
 
     for forex in forex_by_bank:
         # We use the image above the forex table to determine the bank.
@@ -87,8 +98,9 @@ def scrap_forex_page(soup, image_initial_mapping: dict) -> dict:
         for row in forex_by_country.select("tbody > tr"):
             row_data = row.find_all("td")
             country = normalizeStr(row_data[0].text)
+            currency = currency_mapping.get(country, None)
 
-            forex_data.setdefault(bank_initial, {"forex": {}})["forex"][country] = {
+            data = {
                 "buy": {
                     "tt": parse_forex_cell(row_data[1]),
                     "tcdd": parse_forex_cell(row_data[2]),
@@ -100,7 +112,15 @@ def scrap_forex_page(soup, image_initial_mapping: dict) -> dict:
                 },
             }
 
-    return forex_data
+            bank_forex_by_country.setdefault(bank_initial, {})[
+                country
+            ] = data
+            if currency:
+                bank_forex_by_currency.setdefault(bank_initial, {})[
+                    currency
+                ] = data
+
+    return bank_forex_by_country, bank_forex_by_currency
 
 
 def parse_forex_cell(forex_cell) -> float | None:
@@ -112,7 +132,7 @@ def parse_forex_cell(forex_cell) -> float | None:
         return None
 
 
-def scrap_forex(bank_mapping: dict, date: datetime) -> dict:
+def scrap_forex(bank_mapping: dict, currency_mapping: dict, date: datetime) -> dict:
 
     base_url = "https://www.bom.mu/markets/foreign-exchange/indicative-exchange-rate"
     query_params = {
@@ -128,7 +148,8 @@ def scrap_forex(bank_mapping: dict, date: datetime) -> dict:
     }
     image_initial_mapping = {v: k for k, v in initial_image_mapping.items()}
 
-    all_forex = {}
+    all_forex_by_country = {}
+    all_forex_by_currency = {}
     while True:
         page_content = get_web_page_content(
             merge_url_query_params(base_url, query_params)
@@ -139,15 +160,22 @@ def scrap_forex(bank_mapping: dict, date: datetime) -> dict:
         if soup.select("div.view-empty"):  # stop while loop
             break
 
-        forex_data = scrap_forex_page(soup, image_initial_mapping)
-        all_forex.update(forex_data)
+        forex_by_country, forex_by_currency = scrap_forex_page(
+            soup, image_initial_mapping, currency_mapping
+        )
+        all_forex_by_country.update(forex_by_country)
+        all_forex_by_currency.update(forex_by_currency)
 
         query_params["page"] += 1
 
-    return all_forex
+    return forex_by_country, forex_by_currency
 
 
 def save_to_json(filepath: Path, data: dict) -> None:
+    # Ensure the parent directories exist
+    filepath.parent.mkdir(parents=True, exist_ok=True)
+
+    # Save data to JSON file
     with open(filepath.with_suffix(".json"), "w") as f:
         json.dump(data, f, indent=4)
 
@@ -177,24 +205,48 @@ if __name__ == "__main__":
     data.mkdir(parents=True, exist_ok=True)
 
     bank_mapping = get_bank_mapping()
-
+    currency_mapping = get_currency_mapping()
+    
     print("1. Scrapping Forex")
-    all_forex = scrap_forex(bank_mapping, today)
+    all_forex_by_country, all_forex_by_currency = scrap_forex(
+        bank_mapping, currency_mapping, today
+    )
 
-    if all_forex == {}:
+    if all_forex_by_country == {}:
         print("No Forex data")
         exit(0)
 
     print("2. Saving Forex")
-    save_forex(data, "all", {"forex": all_forex}, today)
-    for bank, bank_forex in all_forex.items():
+
+    ## COUNTRY ##
+    save_forex(data, "countries_all", {"forex": all_forex_by_country}, today)
+    for bank, bank_forex in all_forex_by_country.items():
         bank_data_dir = data / bank
         bank_name = bank_mapping[bank]["name"]
 
         bank_data_dir.mkdir(parents=True, exist_ok=True)
 
-        save_forex(bank_data_dir, "all", bank_forex, today)
-        for country, country_forex in bank_forex["forex"].items():
-            save_forex(bank_data_dir, country, {"forex": country_forex}, today)
+        save_forex(bank_data_dir, "countries_all",  {"forex": bank_forex }, today)
+        for country, country_forex in bank_forex.items():
+            save_forex(
+                bank_data_dir, country, {"forex": country_forex}, today
+            )
+
+    ## CURRENCY CODE##
+    save_forex(data, "currencies_all", {"forex": all_forex_by_currency}, today)
+    for bank, bank_forex in all_forex_by_currency.items():
+        bank_data_dir = data / bank
+        bank_name = bank_mapping[bank]["name"]
+
+        bank_data_dir.mkdir(parents=True, exist_ok=True)
+
+        save_forex(bank_data_dir, "currencies_all", {"forex":bank_forex}, today)
+        for currency, currency_forex in bank_forex.items():
+            save_forex(
+                bank_data_dir,
+                currency,
+                {"forex": currency_forex},
+                today,
+            )
 
     exit(0)

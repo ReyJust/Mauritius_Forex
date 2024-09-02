@@ -56,26 +56,26 @@ To view a list of `country_name`, please view the [Country list](#country-list).
 
 # Country List
 
-| Countries    |
-| ------------ |
-| australia    |
-| canada       |
-| china        |
-| denmark      |
-| emu          |
-| hong_kong    |
-| india        |
-| japan        |
-| new_zealand  |
-| norway       |
-| saudi_arabia |
-| singapore    |
-| south_africa |
-| sweden       |
-| switzerland  |
-| ua_emirates  |
-| uk           |
-| usa          |
+| Countries    | Currency Code |
+| ------------ | ------------- |
+| australia    | AUD           |
+| canada       | CAD           |
+| china        | CNY           |
+| denmark      | DKK           |
+| emu (EU)     | EUR           |
+| hong_kong    | HKD           |
+| india        | INR           |
+| japan        | JPY           |
+| new_zealand  | NZD           |
+| norway       | NOK           |
+| saudi_arabia | SAR           |
+| singapore    | SGD           |
+| south_africa | ZAR           |
+| sweden       | SEK           |
+| switzerland  | CHF           |
+| ua_emirates  | AED           |
+| uk           | GBP           |
+| usa          | USD           |
 
 # DISCLAIMER
 
