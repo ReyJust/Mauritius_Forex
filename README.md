@@ -8,13 +8,13 @@ Updates every 2 hour from 6am to 18pm on buisness days.
 ## Get all forex
 
 ```sh
-curl https://raw.githubusercontent.com/ReyJust/MCB_Forex/main/data/all.json
+curl https://raw.githubusercontent.com/ReyJust/Mauritius_Forex/main/data/all.json
 ```
 
 ## Get all forex for a single bank
 
 ```sh
-curl https://raw.githubusercontent.com/ReyJust/MCB_Forex/main/data/{bank_initial}/all.json
+curl https://raw.githubusercontent.com/ReyJust/Mauritius_Forex/main/data/{bank_initial}/all.json
 ```
 
 To view a list of `bank_initials`, please view the [Bank mapping](#bank-mapping). Note that all banks forex might not be available.
@@ -22,7 +22,7 @@ To view a list of `bank_initials`, please view the [Bank mapping](#bank-mapping)
 ## Get a country forex for a single bank
 
 ```sh
-curl https://raw.githubusercontent.com/ReyJust/MCB_Forex/main/data/{bank_initial}/{country_name}.json
+curl https://raw.githubusercontent.com/ReyJust/Mauritius_Forex/main/data/{bank_initial}/{country_name}.json
 ```
 
 To view a list of `country_name`, please view the [Country list](#country-list). That list is subject to changes. It depends on the BOM website content.
