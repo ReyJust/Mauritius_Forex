@@ -1,4 +1,4 @@
-from datetime import datetime
+from datetime import datetime, timedelta
 import json
 from pathlib import Path
 import urllib.parse
@@ -111,7 +111,6 @@ def scrap_forex_page(
                     "notes": parse_forex_cell(row_data[5]),
                 },
             }
-
             bank_forex_by_country.setdefault(bank_initial, {})[
                 country
             ] = data
@@ -151,13 +150,16 @@ def scrap_forex(bank_mapping: dict, currency_mapping: dict, date: datetime) -> d
     all_forex_by_country = {}
     all_forex_by_currency = {}
     while True:
+        url = merge_url_query_params(base_url, query_params)
+        # print(f"Scrapping: {url}")
         page_content = get_web_page_content(
-            merge_url_query_params(base_url, query_params)
+            url
         )
 
         soup = BeautifulSoup(page_content, "html.parser")
 
         if soup.select("div.view-empty"):  # stop while loop
+            print('Found div.view-empty')
             break
 
         forex_by_country, forex_by_currency = scrap_forex_page(
@@ -168,7 +170,7 @@ def scrap_forex(bank_mapping: dict, currency_mapping: dict, date: datetime) -> d
 
         query_params["page"] += 1
 
-    return forex_by_country, forex_by_currency
+    return all_forex_by_country, all_forex_by_currency
 
 
 def save_to_json(filepath: Path, data: dict) -> None:
