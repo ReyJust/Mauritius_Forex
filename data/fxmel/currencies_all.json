@@ -1,0 +1,49 @@
+{
+    "last_update_dt": "2024-12-18T06:28:26.095538",
+    "forex": {
+        "EUR": {
+            "buy": {
+                "tt": 48.153,
+                "tcdd": null,
+                "notes": 48.153
+            },
+            "sell": {
+                "ttddtc": 50.213,
+                "notes": 50.213
+            }
+        },
+        "ZAR": {
+            "buy": {
+                "tt": 2.4854,
+                "tcdd": null,
+                "notes": 2.4854
+            },
+            "sell": {
+                "ttddtc": 2.7654,
+                "notes": 2.7654
+            }
+        },
+        "GBP": {
+            "buy": {
+                "tt": 58.2784,
+                "tcdd": null,
+                "notes": 58.2784
+            },
+            "sell": {
+                "ttddtc": 60.7384,
+                "notes": 60.7384
+            }
+        },
+        "USD": {
+            "buy": {
+                "tt": 45.86,
+                "tcdd": null,
+                "notes": 45.86
+            },
+            "sell": {
+                "ttddtc": 47.58,
+                "notes": 47.58
+            }
+        }
+    }
+}
