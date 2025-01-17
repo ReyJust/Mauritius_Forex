@@ -1,158 +1,158 @@
 {
-    "last_update_dt": "2025-01-16T08:16:39.945621",
+    "last_update_dt": "2025-01-17T08:16:32.855307",
     "forex": {
         "AUD": {
             "buy": {
-                "tt": 27.9255,
-                "tcdd": 27.8889,
-                "notes": 27.5639
+                "tt": 27.855,
+                "tcdd": 27.819,
+                "notes": 27.496
             },
             "sell": {
-                "ttddtc": 29.5108,
-                "notes": 29.5108
+                "ttddtc": 29.439,
+                "notes": 29.439
             }
         },
         "CAD": {
             "buy": {
-                "tt": 31.5351,
-                "tcdd": 31.2867,
+                "tt": 31.403,
+                "tcdd": 31.156,
                 "notes": null
             },
             "sell": {
-                "ttddtc": 33.1129,
+                "ttddtc": 32.977,
                 "notes": null
             }
         },
         "CNY": {
             "buy": {
-                "tt": 6.1814,
+                "tt": 6.18,
                 "tcdd": null,
                 "notes": null
             },
             "sell": {
-                "ttddtc": 6.4939,
+                "ttddtc": 6.492,
                 "notes": null
             }
         },
         "DKK": {
             "buy": {
-                "tt": 6.4592,
-                "tcdd": 6.3892,
+                "tt": 6.458,
+                "tcdd": 6.388,
                 "notes": null
             },
             "sell": {
-                "ttddtc": 6.6342,
+                "ttddtc": 6.633,
                 "notes": null
             }
         },
         "EUR": {
             "buy": {
-                "tt": 47.6196,
-                "tcdd": 47.8925,
-                "notes": 47.6042
+                "tt": 47.652,
+                "tcdd": 47.875,
+                "notes": 47.636
             },
             "sell": {
-                "ttddtc": 49.0128,
-                "notes": 49.0135
+                "ttddtc": 49.037,
+                "notes": 49.056
             }
         },
         "HKD": {
             "buy": {
-                "tt": 5.9556,
-                "tcdd": 5.8803,
-                "notes": 5.7116
+                "tt": 5.951,
+                "tcdd": 5.875,
+                "notes": 5.707
             },
             "sell": {
-                "ttddtc": 6.1343,
-                "notes": 6.1343
+                "ttddtc": 6.129,
+                "notes": 6.129
             }
         },
         "JPY": {
             "buy": {
-                "tt": 28.9514,
-                "tcdd": 28.7669,
+                "tt": 29.029,
+                "tcdd": 28.843,
                 "notes": null
             },
             "sell": {
-                "ttddtc": 30.4379,
+                "ttddtc": 30.518,
                 "notes": null
             }
         },
         "SAR": {
             "buy": {
-                "tt": 12.1441,
-                "tcdd": 12.0167,
-                "notes": 11.7766
+                "tt": 12.134,
+                "tcdd": 12.007,
+                "notes": 11.767
             },
             "sell": {
-                "ttddtc": 12.7363,
-                "notes": 12.7363
+                "ttddtc": 12.726,
+                "notes": 12.726
             }
         },
         "SGD": {
             "buy": {
-                "tt": 33.1909,
-                "tcdd": 33.0368,
-                "notes": 32.683
+                "tt": 33.18,
+                "tcdd": 33.026,
+                "notes": 32.672
             },
             "sell": {
-                "ttddtc": 34.8343,
-                "notes": 34.8343
+                "ttddtc": 34.823,
+                "notes": 34.823
             }
         },
         "ZAR": {
             "buy": {
                 "tt": 2.472,
                 "tcdd": 2.439,
-                "notes": 2.4124
+                "notes": 2.412
             },
             "sell": {
-                "ttddtc": 2.6192,
-                "notes": 2.6232
+                "ttddtc": 2.619,
+                "notes": 2.623
             }
         },
         "CHF": {
             "buy": {
-                "tt": 50.122,
-                "tcdd": 49.8623,
+                "tt": 50.146,
+                "tcdd": 49.886,
                 "notes": null
             },
             "sell": {
-                "ttddtc": 51.9399,
+                "ttddtc": 51.964,
                 "notes": null
             }
         },
         "AED": {
             "buy": {
-                "tt": 12.4026,
-                "tcdd": 12.3526,
+                "tt": 12.392,
+                "tcdd": 12.342,
                 "notes": null
             },
             "sell": {
-                "ttddtc": 12.9326,
+                "ttddtc": 12.922,
                 "notes": null
             }
         },
         "GBP": {
             "buy": {
-                "tt": 56.5329,
-                "tcdd": 56.315,
-                "notes": 56.3146
+                "tt": 56.507,
+                "tcdd": 56.289,
+                "notes": 56.289
             },
             "sell": {
-                "ttddtc": 57.9353,
-                "notes": 57.9819
+                "ttddtc": 57.896,
+                "notes": 57.943
             }
         },
         "USD": {
             "buy": {
-                "tt": 46.49,
-                "tcdd": 46.59,
-                "notes": 46.475
+                "tt": 46.45,
+                "tcdd": 46.55,
+                "notes": 46.435
             },
             "sell": {
-                "ttddtc": 47.39,
-                "notes": 47.69
+                "ttddtc": 47.35,
+                "notes": 47.65
             }
         }
     }
