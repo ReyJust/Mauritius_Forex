@@ -1,37 +1,37 @@
 {
-    "last_update_dt": "2025-02-25T06:19:13.275650",
+    "last_update_dt": "2025-02-28T08:17:46.904489",
     "forex": {
         "AUD": {
             "buy": {
-                "tt": 29.75,
+                "tt": 29.35,
                 "tcdd": null,
-                "notes": 29.15
+                "notes": 28.8
             },
             "sell": {
-                "ttddtc": 31.0,
-                "notes": 31.0
+                "ttddtc": 30.6,
+                "notes": 30.6
             }
         },
         "CAD": {
             "buy": {
-                "tt": 33.0,
+                "tt": 32.8,
                 "tcdd": null,
-                "notes": 32.25
+                "notes": 32.1
             },
             "sell": {
-                "ttddtc": 34.45,
-                "notes": 34.45
+                "ttddtc": 34.3,
+                "notes": 34.3
             }
         },
         "CNY": {
             "buy": {
-                "tt": 6.39,
+                "tt": 6.41,
                 "tcdd": null,
                 "notes": 6.0
             },
             "sell": {
-                "ttddtc": 6.71,
-                "notes": 6.71
+                "ttddtc": 6.73,
+                "notes": 6.73
             }
         },
         "EUR": {
@@ -47,13 +47,13 @@
         },
         "HKD": {
             "buy": {
-                "tt": 5.89,
+                "tt": 5.93,
                 "tcdd": null,
-                "notes": 5.7
+                "notes": 5.74
             },
             "sell": {
-                "ttddtc": 6.2,
-                "notes": 6.2
+                "ttddtc": 6.26,
+                "notes": 6.26
             }
         },
         "INR": {
@@ -69,24 +69,24 @@
         },
         "JPY": {
             "buy": {
-                "tt": 31.3,
+                "tt": 31.55,
                 "tcdd": null,
-                "notes": 30.3
+                "notes": 30.55
             },
             "sell": {
-                "ttddtc": 32.7,
-                "notes": 32.7
+                "ttddtc": 33.0,
+                "notes": 33.0
             }
         },
         "SAR": {
             "buy": {
-                "tt": 12.35,
+                "tt": 12.5,
                 "tcdd": null,
-                "notes": 11.9
+                "notes": 12.05
             },
             "sell": {
-                "ttddtc": 13.0,
-                "notes": 13.0
+                "ttddtc": 13.1,
+                "notes": 13.1
             }
         },
         "SGD": {
@@ -113,46 +113,46 @@
         },
         "CHF": {
             "buy": {
-                "tt": 51.8,
+                "tt": 52.15,
                 "tcdd": null,
-                "notes": 50.8
+                "notes": 51.15
             },
             "sell": {
-                "ttddtc": 54.4,
-                "notes": 54.4
+                "ttddtc": 54.75,
+                "notes": 54.75
             }
         },
         "AED": {
             "buy": {
-                "tt": 12.95,
+                "tt": 13.05,
                 "tcdd": null,
-                "notes": 11.85
+                "notes": 11.95
             },
             "sell": {
-                "ttddtc": 13.5,
-                "notes": 13.5
+                "ttddtc": 13.6,
+                "notes": 13.6
             }
         },
         "GBP": {
             "buy": {
-                "tt": 58.35,
+                "tt": 58.65,
                 "tcdd": null,
-                "notes": 57.3
+                "notes": 57.55
             },
             "sell": {
-                "ttddtc": 59.9,
-                "notes": 59.9
+                "ttddtc": 60.25,
+                "notes": 60.25
             }
         },
         "USD": {
             "buy": {
-                "tt": 46.8,
+                "tt": 47.2,
                 "tcdd": null,
-                "notes": 45.85
+                "notes": 46.25
             },
             "sell": {
-                "ttddtc": 47.7,
-                "notes": 48.0
+                "ttddtc": 48.0,
+                "notes": 48.4
             }
         }
     }
