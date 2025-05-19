@@ -1,15 +1,15 @@
 {
-    "last_update_dt": "2025-05-16T08:20:08.301223",
+    "last_update_dt": "2025-05-19T06:22:59.016858",
     "forex": {
         "australia": {
             "buy": {
-                "tt": 29.54,
-                "tcdd": 29.49,
-                "notes": 29.48
+                "tt": 29.49,
+                "tcdd": 29.44,
+                "notes": 29.43
             },
             "sell": {
-                "ttddtc": 30.45,
-                "notes": 30.45
+                "ttddtc": 30.4,
+                "notes": 30.4
             }
         },
         "emu": {
@@ -36,13 +36,13 @@
         },
         "japan": {
             "buy": {
-                "tt": 32.05,
-                "tcdd": 31.95,
-                "notes": 31.75
+                "tt": 32.15,
+                "tcdd": 32.05,
+                "notes": 31.85
             },
             "sell": {
-                "ttddtc": 33.2,
-                "notes": 33.2
+                "ttddtc": 33.3,
+                "notes": 33.3
             }
         },
         "south_africa": {
@@ -69,13 +69,13 @@
         },
         "usa": {
             "buy": {
-                "tt": 45.66,
-                "tcdd": 45.46,
-                "notes": 45.76
+                "tt": 45.72,
+                "tcdd": 45.52,
+                "notes": 45.82
             },
             "sell": {
-                "ttddtc": 46.56,
-                "notes": 46.91
+                "ttddtc": 46.62,
+                "notes": 46.97
             }
         }
     }
