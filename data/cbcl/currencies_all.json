@@ -1,22 +1,22 @@
 {
-    "last_update_dt": "2025-06-05T06:23:17.988527",
+    "last_update_dt": "2025-06-06T06:22:57.533144",
     "forex": {
         "AUD": {
             "buy": {
-                "tt": 30.0,
+                "tt": 29.95,
                 "tcdd": null,
                 "notes": 29.3
             },
             "sell": {
-                "ttddtc": 31.1,
-                "notes": 31.1
+                "ttddtc": 31.15,
+                "notes": 31.15
             }
         },
         "CAD": {
             "buy": {
-                "tt": 33.9,
+                "tt": 33.85,
                 "tcdd": null,
-                "notes": 33.05
+                "notes": 33.0
             },
             "sell": {
                 "ttddtc": 35.25,
@@ -25,13 +25,13 @@
         },
         "CNY": {
             "buy": {
-                "tt": 6.36,
+                "tt": 6.34,
                 "tcdd": null,
                 "notes": 6.0
             },
             "sell": {
-                "ttddtc": 6.66,
-                "notes": 6.66
+                "ttddtc": 6.64,
+                "notes": 6.64
             }
         },
         "EUR": {
@@ -41,24 +41,24 @@
                 "notes": 50.9
             },
             "sell": {
-                "ttddtc": 53.4,
-                "notes": 53.4
+                "ttddtc": 53.5,
+                "notes": 53.5
             }
         },
         "HKD": {
             "buy": {
-                "tt": 5.74,
+                "tt": 5.73,
                 "tcdd": null,
-                "notes": 5.55
+                "notes": 5.54
             },
             "sell": {
-                "ttddtc": 6.04,
-                "notes": 6.04
+                "ttddtc": 6.03,
+                "notes": 6.03
             }
         },
         "INR": {
             "buy": {
-                "tt": 0.545,
+                "tt": 0.54,
                 "tcdd": null,
                 "notes": 0.45
             },
@@ -69,18 +69,18 @@
         },
         "JPY": {
             "buy": {
-                "tt": 32.2,
+                "tt": 32.0,
                 "tcdd": null,
-                "notes": 31.15
+                "notes": 30.9
             },
             "sell": {
-                "ttddtc": 33.65,
-                "notes": 33.65
+                "ttddtc": 33.4,
+                "notes": 33.4
             }
         },
         "SAR": {
             "buy": {
-                "tt": 12.2,
+                "tt": 12.15,
                 "tcdd": null,
                 "notes": 11.7
             },
@@ -102,9 +102,9 @@
         },
         "ZAR": {
             "buy": {
-                "tt": 2.59,
+                "tt": 2.6,
                 "tcdd": null,
-                "notes": 2.47
+                "notes": 2.48
             },
             "sell": {
                 "ttddtc": 2.75,
@@ -113,18 +113,18 @@
         },
         "CHF": {
             "buy": {
-                "tt": 55.8,
+                "tt": 55.6,
                 "tcdd": null,
-                "notes": 54.7
+                "notes": 54.5
             },
             "sell": {
-                "ttddtc": 58.4,
-                "notes": 58.4
+                "ttddtc": 58.25,
+                "notes": 58.25
             }
         },
         "AED": {
             "buy": {
-                "tt": 12.75,
+                "tt": 12.7,
                 "tcdd": null,
                 "notes": 11.65
             },
@@ -135,7 +135,7 @@
         },
         "GBP": {
             "buy": {
-                "tt": 61.6,
+                "tt": 61.55,
                 "tcdd": null,
                 "notes": 60.4
             },
@@ -146,13 +146,13 @@
         },
         "USD": {
             "buy": {
-                "tt": 46.05,
+                "tt": 45.95,
                 "tcdd": null,
-                "notes": 45.1
+                "notes": 45.0
             },
             "sell": {
-                "ttddtc": 46.95,
-                "notes": 47.5
+                "ttddtc": 46.85,
+                "notes": 47.4
             }
         }
     }
