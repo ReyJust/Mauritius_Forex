@@ -1,26 +1,26 @@
 {
-    "last_update_dt": "2025-09-10T06:21:46.458217",
+    "last_update_dt": "2025-09-11T06:22:21.391041",
     "forex": {
         "australia": {
             "buy": {
                 "tt": null,
                 "tcdd": null,
-                "notes": 30.25
+                "notes": 30.0
             },
             "sell": {
                 "ttddtc": null,
-                "notes": 32.25
+                "notes": 32.0
             }
         },
         "canada": {
             "buy": {
                 "tt": null,
                 "tcdd": null,
-                "notes": 33.25
+                "notes": 32.5
             },
             "sell": {
                 "ttddtc": null,
-                "notes": 35.25
+                "notes": 35.0
             }
         },
         "china": {
@@ -137,7 +137,7 @@
             "buy": {
                 "tt": null,
                 "tcdd": null,
-                "notes": 60.5
+                "notes": 60.0
             },
             "sell": {
                 "ttddtc": null,
@@ -148,11 +148,11 @@
             "buy": {
                 "tt": null,
                 "tcdd": null,
-                "notes": 45.5
+                "notes": 45.0
             },
             "sell": {
                 "ttddtc": null,
-                "notes": 47.25
+                "notes": 47.0
             }
         }
     }
