@@ -1,58 +1,58 @@
 {
-    "last_update_dt": "2025-12-17T06:26:28.632868",
+    "last_update_dt": "2025-12-18T06:26:21.837649",
     "forex": {
         "australia": {
             "buy": {
-                "tt": 30.231,
-                "tcdd": 30.031,
-                "notes": 29.731
+                "tt": 30.155,
+                "tcdd": 29.955,
+                "notes": 29.655
             },
             "sell": {
-                "ttddtc": 32.506,
-                "notes": 32.506
+                "ttddtc": 32.43,
+                "notes": 32.43
             }
         },
         "canada": {
             "buy": {
-                "tt": 32.916,
+                "tt": 32.901,
                 "tcdd": null,
-                "notes": 32.586
+                "notes": 32.571
             },
             "sell": {
-                "ttddtc": 35.356,
-                "notes": 35.356
+                "ttddtc": 35.341,
+                "notes": 35.341
             }
         },
         "china": {
             "buy": {
-                "tt": 6.414,
+                "tt": 6.415,
                 "tcdd": null,
                 "notes": null
             },
             "sell": {
-                "ttddtc": 7.239,
+                "ttddtc": 7.24,
                 "notes": null
             }
         },
         "emu": {
             "buy": {
-                "tt": 53.192,
-                "tcdd": 53.112,
-                "notes": 52.762
+                "tt": 53.222,
+                "tcdd": 53.142,
+                "notes": 52.792
             },
             "sell": {
-                "ttddtc": 54.788,
-                "notes": 54.788
+                "ttddtc": 54.819,
+                "notes": 54.819
             }
         },
         "hong_kong": {
             "buy": {
-                "tt": 5.843,
+                "tt": 5.84,
                 "tcdd": null,
                 "notes": null
             },
             "sell": {
-                "ttddtc": 6.003,
+                "ttddtc": 6.0,
                 "notes": null
             }
         },
@@ -69,123 +69,123 @@
         },
         "japan": {
             "buy": {
-                "tt": 29.459,
+                "tt": 29.336,
                 "tcdd": null,
                 "notes": null
             },
             "sell": {
-                "ttddtc": 31.655,
+                "ttddtc": 31.532,
                 "notes": null
             }
         },
         "kenya": {
             "buy": {
-                "tt": 35.168,
+                "tt": 35.16,
                 "tcdd": null,
                 "notes": null
             },
             "sell": {
-                "ttddtc": 36.848,
+                "ttddtc": 36.84,
                 "notes": null
             }
         },
         "malagasy": {
             "buy": {
-                "tt": 0.982,
+                "tt": 0.961,
                 "tcdd": null,
                 "notes": null
             },
             "sell": {
-                "ttddtc": 1.122,
+                "ttddtc": 1.101,
                 "notes": null
             }
         },
         "new_zealand": {
             "buy": {
-                "tt": 26.164,
+                "tt": 26.08,
                 "tcdd": null,
                 "notes": null
             },
             "sell": {
-                "ttddtc": 27.009,
+                "ttddtc": 26.925,
                 "notes": null
             }
         },
         "saudi_arabia": {
             "buy": {
-                "tt": 12.118,
+                "tt": 12.114,
                 "tcdd": null,
                 "notes": null
             },
             "sell": {
-                "ttddtc": 12.43,
+                "ttddtc": 12.426,
                 "notes": null
             }
         },
         "singapore": {
             "buy": {
-                "tt": 35.053,
-                "tcdd": 34.753,
-                "notes": 34.653
+                "tt": 35.062,
+                "tcdd": 34.762,
+                "notes": 34.662
             },
             "sell": {
-                "ttddtc": 36.627,
-                "notes": 36.627
+                "ttddtc": 36.636,
+                "notes": 36.636
             }
         },
         "south_africa": {
             "buy": {
-                "tt": 2.75,
+                "tt": 2.748,
                 "tcdd": null,
-                "notes": 2.55
+                "notes": 2.548
             },
             "sell": {
-                "ttddtc": 2.939,
-                "notes": 2.939
+                "ttddtc": 2.937,
+                "notes": 2.937
             }
         },
         "switzerland": {
             "buy": {
-                "tt": 56.934,
+                "tt": 56.979,
                 "tcdd": null,
                 "notes": null
             },
             "sell": {
-                "ttddtc": 59.277,
+                "ttddtc": 59.322,
                 "notes": null
             }
         },
         "ua_emirates": {
             "buy": {
-                "tt": 12.468,
+                "tt": 12.465,
                 "tcdd": null,
-                "notes": 11.768
+                "notes": 11.765
             },
             "sell": {
-                "ttddtc": 13.568,
-                "notes": 13.568
+                "ttddtc": 13.565,
+                "notes": 13.565
             }
         },
         "uk": {
             "buy": {
-                "tt": 60.755,
-                "tcdd": 60.625,
-                "notes": 60.225
+                "tt": 60.59,
+                "tcdd": 60.46,
+                "notes": 60.06
             },
             "sell": {
-                "ttddtc": 62.578,
-                "notes": 62.578
+                "ttddtc": 62.408,
+                "notes": 62.408
             }
         },
         "usa": {
             "buy": {
-                "tt": 45.58,
-                "tcdd": 45.48,
-                "notes": 45.28
+                "tt": 45.57,
+                "tcdd": 45.47,
+                "notes": 45.27
             },
             "sell": {
-                "ttddtc": 46.48,
-                "notes": 46.98
+                "ttddtc": 46.47,
+                "notes": 46.97
             }
         }
     }
