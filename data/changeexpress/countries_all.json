@@ -1,11 +1,11 @@
 {
-    "last_update_dt": "2026-04-13T07:55:54.102710",
+    "last_update_dt": "2026-04-14T07:24:05.478231",
     "forex": {
         "australia": {
             "buy": {
                 "tt": null,
                 "tcdd": null,
-                "notes": 33.1
+                "notes": 33.0
             },
             "sell": {
                 "ttddtc": null,
@@ -20,14 +20,14 @@
             },
             "sell": {
                 "ttddtc": null,
-                "notes": 35.7
+                "notes": 35.65
             }
         },
         "china": {
             "buy": {
                 "tt": null,
                 "tcdd": null,
-                "notes": 6.2
+                "notes": 6.25
             },
             "sell": {
                 "ttddtc": null,
@@ -38,7 +38,7 @@
             "buy": {
                 "tt": 54.5,
                 "tcdd": null,
-                "notes": 53.15
+                "notes": 53.2
             },
             "sell": {
                 "ttddtc": 56.0,
@@ -49,11 +49,11 @@
             "buy": {
                 "tt": null,
                 "tcdd": null,
-                "notes": 5.73
+                "notes": 5.69
             },
             "sell": {
                 "ttddtc": null,
-                "notes": 6.21
+                "notes": 6.18
             }
         },
         "india": {
@@ -64,7 +64,7 @@
             },
             "sell": {
                 "ttddtc": null,
-                "notes": 0.61
+                "notes": 0.62
             }
         },
         "japan": {
@@ -74,8 +74,8 @@
                 "notes": 28.75
             },
             "sell": {
-                "ttddtc": 31.0,
-                "notes": 31.0
+                "ttddtc": 30.9,
+                "notes": 30.95
             }
         },
         "malaysia": {
@@ -97,14 +97,14 @@
             },
             "sell": {
                 "ttddtc": null,
-                "notes": 28.5
+                "notes": 28.6
             }
         },
         "saudi_arabia": {
             "buy": {
                 "tt": null,
                 "tcdd": null,
-                "notes": 12.15
+                "notes": 12.1
             },
             "sell": {
                 "ttddtc": null,
@@ -115,33 +115,33 @@
             "buy": {
                 "tt": null,
                 "tcdd": null,
-                "notes": 36.55
+                "notes": 36.4
             },
             "sell": {
                 "ttddtc": null,
-                "notes": 38.7
+                "notes": 38.6
             }
         },
         "south_africa": {
             "buy": {
                 "tt": 2.85,
                 "tcdd": null,
-                "notes": 2.77
+                "notes": 2.78
             },
             "sell": {
-                "ttddtc": 2.99,
+                "ttddtc": 3.0,
                 "notes": 3.0
             }
         },
         "switzerland": {
             "buy": {
-                "tt": 59.5,
+                "tt": 59.75,
                 "tcdd": null,
-                "notes": 58.85
+                "notes": 59.15
             },
             "sell": {
-                "ttddtc": 62.5,
-                "notes": 62.5
+                "ttddtc": 62.75,
+                "notes": 62.6
             }
         },
         "ua_emirates": {
@@ -157,23 +157,23 @@
         },
         "uk": {
             "buy": {
-                "tt": 62.0,
+                "tt": 62.1,
                 "tcdd": null,
-                "notes": 61.0
+                "notes": 61.1
             },
             "sell": {
-                "ttddtc": 63.35,
-                "notes": 63.5
+                "ttddtc": 63.5,
+                "notes": 63.95
             }
         },
         "usa": {
             "buy": {
-                "tt": 46.9,
+                "tt": 46.65,
                 "tcdd": null,
-                "notes": 46.0
+                "notes": 45.65
             },
             "sell": {
-                "ttddtc": 48.2,
+                "ttddtc": 47.95,
                 "notes": 48.95
             }
         }
