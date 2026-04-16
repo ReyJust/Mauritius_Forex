@@ -1,26 +1,26 @@
 {
-    "last_update_dt": "2026-04-15T07:24:16.751158",
+    "last_update_dt": "2026-04-16T07:25:17.825957",
     "forex": {
         "australia": {
             "buy": {
                 "tt": null,
                 "tcdd": null,
-                "notes": 33.15
+                "notes": 33.4
             },
             "sell": {
                 "ttddtc": null,
-                "notes": 35.0
+                "notes": 35.3
             }
         },
         "canada": {
             "buy": {
                 "tt": null,
                 "tcdd": null,
-                "notes": 33.55
+                "notes": 33.65
             },
             "sell": {
                 "ttddtc": null,
-                "notes": 35.65
+                "notes": 35.75
             }
         },
         "china": {
@@ -38,11 +38,11 @@
             "buy": {
                 "tt": 54.5,
                 "tcdd": null,
-                "notes": 53.25
+                "notes": 53.3
             },
             "sell": {
                 "ttddtc": 56.0,
-                "notes": 55.95
+                "notes": 56.1
             }
         },
         "hong_kong": {
@@ -93,7 +93,7 @@
             "buy": {
                 "tt": null,
                 "tcdd": null,
-                "notes": 27.05
+                "notes": 27.1
             },
             "sell": {
                 "ttddtc": null,
@@ -163,17 +163,17 @@
             },
             "sell": {
                 "ttddtc": 63.65,
-                "notes": 64.25
+                "notes": 64.5
             }
         },
         "usa": {
             "buy": {
-                "tt": 46.6,
+                "tt": 46.55,
                 "tcdd": null,
-                "notes": 45.65
+                "notes": 45.6
             },
             "sell": {
-                "ttddtc": 47.9,
+                "ttddtc": 47.85,
                 "notes": 48.95
             }
         }
