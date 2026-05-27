@@ -261,9 +261,9 @@ if __name__ == "__main__":
                 today,
             )
 
-    print("3. Save unknown banks")
     if len(all_unknown_banks) > 0:
-        print("::warning::Forex scraper: unknown bank images detected")
-        print("Unknown images:", ", ".join(all_unknown_banks))
+        print("3. Save unknown banks")
+        with open("unknown_banks.json", "w") as f:
+            json.dump(all_unknown_banks, f)
 
     exit(0)
