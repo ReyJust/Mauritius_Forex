@@ -44,55 +44,27 @@ jobs:
           git push
 
       - name: Create issue if scraper degraded
-        if: always()
+        if: hashFiles('unknown_banks.json') != ''
         uses: actions/github-script@v7
         with:
           script: |
-            const { execSync } = require('child_process');
-
-            try {
-              execSync('test -f unknown_banks.json');
-            } catch {
-              return;
-            }
-
             const fs = require('fs');
-            const banks = JSON.parse(fs.readFileSync('unknown_banks.json'));
+
+            const banks = JSON.parse(fs.readFileSync('unknown_banks.json', 'utf8'));
 
             if (!banks.length) return;
 
             await github.rest.issues.create({
               owner: context.repo.owner,
               repo: context.repo.repo,
-              title: '⚠️ Forex scraper: bank image mismatch',
-              body: `
-              The forex scraper detected unknown bank image names.
-
-              \`\`\`
-              ${banks.join('\n')}
-              \`\`\`
-
-              The run succeeded, but mappings likely need updating.
-                      `
+              title: '⚠️ Forex scraper: unknown bank images detected',
+              body: [
+                'The forex scraper detected unknown bank image names:',
+                '',
+                '```',
+                ...banks,
+                '```',
+                '',
+                'The run succeeded but mappings likely need updating.'
+              ].join('\n')
             });
-              if: hashFiles('unknown_banks.json') != ''
-              uses: actions/github-script@v7
-              with:
-                script: |
-                  const fs = require('fs');
-                  const banks = JSON.parse(fs.readFileSync('unknown_banks.json'));
-
-                  await github.rest.issues.create({
-                    owner: context.repo.owner,
-                    repo: context.repo.repo,
-                    title: '⚠️ Forex scraper: unknown bank images detected',
-                    body: `
-                    The following bank image names no longer match:
-
-                    \`\`\`
-                    ${banks.join('\n')}
-                    \`\`\`
-
-                    The scraper continued successfully, but mappings should be updated.
-                            `
-                          });
