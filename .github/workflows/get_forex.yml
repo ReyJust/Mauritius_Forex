@@ -32,7 +32,7 @@ jobs:
           git config user.name "Forex Bot"
           git config user.email "actions@users.noreply.github.com"
           git add -A
-          
+
           # Check if there are staged changes
           if git diff --cached --quiet; then
             echo "No changes to commit. Exiting."
@@ -42,3 +42,57 @@ jobs:
           timestamp=$(date -u)
           git commit -m "${timestamp} Forex" || exit 0
           git push
+
+      - name: Create issue if scraper degraded
+        if: always()
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const { execSync } = require('child_process');
+
+            try {
+              execSync('test -f unknown_banks.json');
+            } catch {
+              return;
+            }
+
+            const fs = require('fs');
+            const banks = JSON.parse(fs.readFileSync('unknown_banks.json'));
+
+            if (!banks.length) return;
+
+            await github.rest.issues.create({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              title: '⚠️ Forex scraper: bank image mismatch',
+              body: `
+              The forex scraper detected unknown bank image names.
+
+              \`\`\`
+              ${banks.join('\n')}
+              \`\`\`
+
+              The run succeeded, but mappings likely need updating.
+                      `
+            });
+              if: hashFiles('unknown_banks.json') != ''
+              uses: actions/github-script@v7
+              with:
+                script: |
+                  const fs = require('fs');
+                  const banks = JSON.parse(fs.readFileSync('unknown_banks.json'));
+
+                  await github.rest.issues.create({
+                    owner: context.repo.owner,
+                    repo: context.repo.repo,
+                    title: '⚠️ Forex scraper: unknown bank images detected',
+                    body: `
+                    The following bank image names no longer match:
+
+                    \`\`\`
+                    ${banks.join('\n')}
+                    \`\`\`
+
+                    The scraper continued successfully, but mappings should be updated.
+                            `
+                          });

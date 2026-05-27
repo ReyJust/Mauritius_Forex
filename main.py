@@ -80,6 +80,8 @@ def scrap_forex_page(
     bank_forex_by_country = {}
     bank_forex_by_currency = {}
 
+    unknown_banks = []
+
     for forex in forex_by_bank:
         # We use the image above the forex table to determine the bank.
         bank_img = forex.select_one("img").get("src")
@@ -87,11 +89,17 @@ def scrap_forex_page(
         bank_img_filename = get_image_filename(bank_img)
 
         if not (bank_img_filename):
-            raise Exception("No bank image found")
+            # raise Exception("No bank image found")
+            # Save bank in an array
+            unknown_banks.append(bank_img_filename)
+            continue
+
         bank_initial = image_initial_mapping.get(bank_img_filename)
 
         if not (bank_initial):
-            raise Exception(f"Bank not in bank_mapping for image: {bank_img}")
+            # raise Exception(f"Bank not in bank_mapping for image: {bank_img}")
+            unknown_banks.append(bank_img_filename)
+            continue
         forex_by_country = forex.select_one("table")
 
         # A row, a country
@@ -119,7 +127,7 @@ def scrap_forex_page(
                     currency
                 ] = data
 
-    return bank_forex_by_country, bank_forex_by_currency
+    return bank_forex_by_country, bank_forex_by_currency, unknown_banks
 
 
 def parse_forex_cell(forex_cell) -> float | None:
@@ -149,6 +157,7 @@ def scrap_forex(bank_mapping: dict, currency_mapping: dict, date: datetime) -> d
 
     all_forex_by_country = {}
     all_forex_by_currency = {}
+    all_unknown_banks = []
     while True:
         url = merge_url_query_params(base_url, query_params)
         # print(f"Scrapping: {url}")
@@ -162,15 +171,16 @@ def scrap_forex(bank_mapping: dict, currency_mapping: dict, date: datetime) -> d
             print('Found div.view-empty')
             break
 
-        forex_by_country, forex_by_currency = scrap_forex_page(
+        forex_by_country, forex_by_currency, unknown_banks = scrap_forex_page(
             soup, image_initial_mapping, currency_mapping
         )
         all_forex_by_country.update(forex_by_country)
         all_forex_by_currency.update(forex_by_currency)
+        all_unknown_banks.extend(unknown_banks)
 
         query_params["page"] += 1
 
-    return all_forex_by_country, all_forex_by_currency
+    return all_forex_by_country, all_forex_by_currency, all_unknown_banks
 
 
 def save_to_json(filepath: Path, data: dict) -> None:
@@ -210,7 +220,7 @@ if __name__ == "__main__":
     currency_mapping = get_currency_mapping()
     
     print("1. Scrapping Forex")
-    all_forex_by_country, all_forex_by_currency = scrap_forex(
+    all_forex_by_country, all_forex_by_currency, all_unknown_banks = scrap_forex(
         bank_mapping, currency_mapping, today
     )
 
@@ -250,5 +260,10 @@ if __name__ == "__main__":
                 {"forex": currency_forex},
                 today,
             )
+
+    print("3. Save unknown banks")
+    if len(all_unknown_banks) > 0:
+        print("::warning::Forex scraper: unknown bank images detected")
+        print("Unknown images:", ", ".join(all_unknown_banks))
 
     exit(0)
