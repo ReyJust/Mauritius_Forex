@@ -1,15 +1,15 @@
 {
-    "last_update_dt": "2026-07-06T11:59:07.862156",
+    "last_update_dt": "2026-07-07T06:03:10.225933",
     "forex": {
         "australia": {
             "buy": {
-                "tt": 33.35,
+                "tt": 33.4,
                 "tcdd": null,
-                "notes": 32.8
+                "notes": 32.9
             },
             "sell": {
-                "ttddtc": 34.85,
-                "notes": 34.85
+                "ttddtc": 34.9,
+                "notes": 34.9
             }
         },
         "canada": {
@@ -25,23 +25,23 @@
         },
         "china": {
             "buy": {
-                "tt": 7.3,
+                "tt": 7.28,
                 "tcdd": null,
                 "notes": 6.5
             },
             "sell": {
-                "ttddtc": 7.65,
-                "notes": 7.65
+                "ttddtc": 7.64,
+                "notes": 7.64
             }
         },
         "emu": {
             "buy": {
-                "tt": 53.13,
+                "tt": 53.16,
                 "tcdd": null,
-                "notes": 52.6
+                "notes": 52.65
             },
             "sell": {
-                "ttddtc": 54.72,
+                "ttddtc": 54.73,
                 "notes": 56.0
             }
         },
@@ -69,12 +69,12 @@
         },
         "japan": {
             "buy": {
-                "tt": 28.78,
+                "tt": 28.8,
                 "tcdd": null,
                 "notes": 28.0
             },
             "sell": {
-                "ttddtc": 29.61,
+                "ttddtc": 29.63,
                 "notes": 29.8
             }
         },
@@ -113,13 +113,13 @@
         },
         "switzerland": {
             "buy": {
-                "tt": 57.75,
+                "tt": 57.67,
                 "tcdd": null,
-                "notes": 57.1
+                "notes": 57.0
             },
             "sell": {
-                "ttddtc": 59.44,
-                "notes": 59.7
+                "ttddtc": 59.36,
+                "notes": 59.6
             }
         },
         "ua_emirates": {
@@ -135,13 +135,13 @@
         },
         "uk": {
             "buy": {
-                "tt": 62.02,
+                "tt": 62.24,
                 "tcdd": null,
-                "notes": 61.4
+                "notes": 61.65
             },
             "sell": {
-                "ttddtc": 63.83,
-                "notes": 64.15
+                "ttddtc": 64.06,
+                "notes": 64.35
             }
         },
         "usa": {
@@ -152,7 +152,7 @@
             },
             "sell": {
                 "ttddtc": 47.87,
-                "notes": 49.1
+                "notes": 49.0
             }
         }
     }
