@@ -1,59 +1,59 @@
 {
-    "last_update_dt": "2026-07-07T06:03:10.225933",
+    "last_update_dt": "2026-07-08T08:19:33.866829",
     "forex": {
         "AUD": {
             "buy": {
-                "tt": 33.4,
+                "tt": 33.5,
                 "tcdd": null,
-                "notes": 32.9
+                "notes": 32.95
             },
             "sell": {
-                "ttddtc": 34.9,
-                "notes": 34.9
+                "ttddtc": 34.95,
+                "notes": 34.95
             }
         },
         "CAD": {
             "buy": {
-                "tt": 33.8,
+                "tt": 33.9,
                 "tcdd": null,
-                "notes": 33.15
+                "notes": 33.25
             },
             "sell": {
-                "ttddtc": 35.4,
-                "notes": 35.4
+                "ttddtc": 35.5,
+                "notes": 35.5
             }
         },
         "CNY": {
             "buy": {
-                "tt": 7.28,
+                "tt": 7.3,
                 "tcdd": null,
                 "notes": 6.5
             },
             "sell": {
-                "ttddtc": 7.64,
-                "notes": 7.64
+                "ttddtc": 7.67,
+                "notes": 7.67
             }
         },
         "EUR": {
             "buy": {
-                "tt": 53.16,
+                "tt": 53.17,
                 "tcdd": null,
                 "notes": 52.65
             },
             "sell": {
-                "ttddtc": 54.73,
+                "ttddtc": 54.74,
                 "notes": 56.0
             }
         },
         "HKD": {
             "buy": {
-                "tt": 5.96,
+                "tt": 5.97,
                 "tcdd": null,
-                "notes": 5.76
+                "notes": 5.77
             },
             "sell": {
-                "ttddtc": 6.28,
-                "notes": 6.28
+                "ttddtc": 6.29,
+                "notes": 6.29
             }
         },
         "INR": {
@@ -69,12 +69,12 @@
         },
         "JPY": {
             "buy": {
-                "tt": 28.8,
+                "tt": 28.76,
                 "tcdd": null,
-                "notes": 28.0
+                "notes": 27.95
             },
             "sell": {
-                "ttddtc": 29.63,
+                "ttddtc": 29.59,
                 "notes": 29.8
             }
         },
@@ -91,9 +91,9 @@
         },
         "SGD": {
             "buy": {
-                "tt": 37.05,
+                "tt": 37.1,
                 "tcdd": null,
-                "notes": 36.75
+                "notes": 36.8
             },
             "sell": {
                 "ttddtc": 39.0,
@@ -113,20 +113,20 @@
         },
         "CHF": {
             "buy": {
-                "tt": 57.67,
+                "tt": 57.6,
                 "tcdd": null,
-                "notes": 57.0
+                "notes": 56.95
             },
             "sell": {
-                "ttddtc": 59.36,
-                "notes": 59.6
+                "ttddtc": 59.28,
+                "notes": 59.5
             }
         },
         "AED": {
             "buy": {
                 "tt": 13.15,
                 "tcdd": null,
-                "notes": 12.1
+                "notes": 12.15
             },
             "sell": {
                 "ttddtc": 13.75,
@@ -135,23 +135,23 @@
         },
         "GBP": {
             "buy": {
-                "tt": 62.24,
+                "tt": 62.21,
                 "tcdd": null,
-                "notes": 61.65
+                "notes": 61.6
             },
             "sell": {
-                "ttddtc": 64.06,
-                "notes": 64.35
+                "ttddtc": 64.03,
+                "notes": 64.3
             }
         },
         "USD": {
             "buy": {
-                "tt": 46.49,
+                "tt": 46.6,
                 "tcdd": null,
-                "notes": 46.3
+                "notes": 46.45
             },
             "sell": {
-                "ttddtc": 47.87,
+                "ttddtc": 47.98,
                 "notes": 49.0
             }
         }
