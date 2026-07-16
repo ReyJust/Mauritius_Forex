@@ -1,26 +1,26 @@
 {
-    "last_update_dt": "2026-07-15T07:58:47.386871",
+    "last_update_dt": "2026-07-16T08:04:20.734206",
     "forex": {
         "AUD": {
             "buy": {
-                "tt": 34.59,
+                "tt": 34.61,
                 "tcdd": null,
-                "notes": 34.53
+                "notes": 34.55
             },
             "sell": {
-                "ttddtc": 35.22,
-                "notes": 35.22
+                "ttddtc": 35.24,
+                "notes": 35.24
             }
         },
         "EUR": {
             "buy": {
-                "tt": 53.16,
+                "tt": 53.18,
                 "tcdd": null,
-                "notes": 52.98
+                "notes": 53.0
             },
             "sell": {
-                "ttddtc": 54.7,
-                "notes": 54.85
+                "ttddtc": 54.72,
+                "notes": 54.87
             }
         },
         "INR": {
@@ -36,13 +36,13 @@
         },
         "JPY": {
             "buy": {
-                "tt": 28.62,
+                "tt": 28.58,
                 "tcdd": null,
-                "notes": 27.88
+                "notes": 27.84
             },
             "sell": {
-                "ttddtc": 29.48,
-                "notes": 29.48
+                "ttddtc": 29.44,
+                "notes": 29.44
             }
         },
         "ZAR": {
@@ -58,24 +58,24 @@
         },
         "GBP": {
             "buy": {
-                "tt": 62.27,
+                "tt": 62.75,
                 "tcdd": null,
-                "notes": 62.02
+                "notes": 62.5
             },
             "sell": {
-                "ttddtc": 64.08,
-                "notes": 64.23
+                "ttddtc": 64.57,
+                "notes": 64.72
             }
         },
         "USD": {
             "buy": {
-                "tt": 46.43,
+                "tt": 46.34,
                 "tcdd": null,
-                "notes": 46.34
+                "notes": 46.25
             },
             "sell": {
-                "ttddtc": 47.82,
-                "notes": 48.17
+                "ttddtc": 47.73,
+                "notes": 48.08
             }
         }
     }
