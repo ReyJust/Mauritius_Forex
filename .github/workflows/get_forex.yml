@@ -54,10 +54,25 @@ jobs:
 
             if (!banks.length) return;
 
+            const label = 'scraper-degraded';
+
+            const existing = await github.rest.issues.listForRepo({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              state: 'open',
+              labels: label,
+            });
+
+            if (existing.data.length) {
+              console.log(`Open issue already exists (#${existing.data[0].number}), skipping.`);
+              return;
+            }
+
             await github.rest.issues.create({
               owner: context.repo.owner,
               repo: context.repo.repo,
               title: '⚠️ Forex scraper: unknown bank images detected',
+              labels: [label],
               body: [
                 'The forex scraper detected unknown bank image names:',
                 '',
