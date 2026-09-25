@@ -1,22 +1,22 @@
 {
-    "last_update_dt": "2026-09-24T13:06:23.346758",
+    "last_update_dt": "2026-09-25T07:02:25.526564",
     "forex": {
         "australia": {
             "buy": {
-                "tt": 34.85,
+                "tt": 34.8,
                 "tcdd": null,
-                "notes": 34.51
+                "notes": 34.46
             },
             "sell": {
-                "ttddtc": 35.89,
-                "notes": 35.89
+                "ttddtc": 35.83,
+                "notes": 35.83
             }
         },
         "emu": {
             "buy": {
-                "tt": 53.16,
+                "tt": 53.17,
                 "tcdd": null,
-                "notes": 52.94
+                "notes": 52.95
             },
             "sell": {
                 "ttddtc": 54.75,
@@ -36,13 +36,13 @@
         },
         "japan": {
             "buy": {
-                "tt": 29.62,
+                "tt": 29.66,
                 "tcdd": null,
-                "notes": 29.53
+                "notes": 29.57
             },
             "sell": {
-                "ttddtc": 30.5,
-                "notes": 30.7
+                "ttddtc": 30.54,
+                "notes": 30.74
             }
         },
         "south_africa": {
@@ -58,24 +58,24 @@
         },
         "uk": {
             "buy": {
-                "tt": 61.93,
+                "tt": 61.87,
                 "tcdd": null,
-                "notes": 61.62
+                "notes": 61.57
             },
             "sell": {
-                "ttddtc": 63.77,
-                "notes": 64.07
+                "ttddtc": 63.72,
+                "notes": 64.02
             }
         },
         "usa": {
             "buy": {
-                "tt": 46.76,
+                "tt": 46.83,
                 "tcdd": null,
-                "notes": 46.6
+                "notes": 46.67
             },
             "sell": {
-                "ttddtc": 48.15,
-                "notes": 48.45
+                "ttddtc": 48.23,
+                "notes": 48.53
             }
         }
     }
