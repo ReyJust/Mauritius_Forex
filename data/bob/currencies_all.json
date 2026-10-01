@@ -1,15 +1,15 @@
 {
-    "last_update_dt": "2026-09-30T07:51:11.733646",
+    "last_update_dt": "2026-10-01T08:12:29.978543",
     "forex": {
         "AUD": {
             "buy": {
-                "tt": 34.72,
+                "tt": 34.62,
                 "tcdd": null,
-                "notes": 34.38
+                "notes": 34.29
             },
             "sell": {
-                "ttddtc": 35.75,
-                "notes": 35.75
+                "ttddtc": 35.65,
+                "notes": 35.65
             }
         },
         "EUR": {
@@ -36,46 +36,46 @@
         },
         "JPY": {
             "buy": {
-                "tt": 30.05,
+                "tt": 29.88,
                 "tcdd": null,
-                "notes": 29.95
+                "notes": 29.78
             },
             "sell": {
-                "ttddtc": 30.95,
-                "notes": 31.15
+                "ttddtc": 30.77,
+                "notes": 30.97
             }
         },
         "ZAR": {
             "buy": {
-                "tt": 3.04,
+                "tt": 3.03,
                 "tcdd": null,
                 "notes": null
             },
             "sell": {
-                "ttddtc": 3.13,
-                "notes": 3.13
+                "ttddtc": 3.12,
+                "notes": 3.12
             }
         },
         "GBP": {
             "buy": {
-                "tt": 62.21,
+                "tt": 62.36,
                 "tcdd": null,
-                "notes": 61.9
+                "notes": 62.05
             },
             "sell": {
-                "ttddtc": 64.06,
-                "notes": 64.36
+                "ttddtc": 64.22,
+                "notes": 64.52
             }
         },
         "USD": {
             "buy": {
-                "tt": 47.06,
+                "tt": 47.1,
                 "tcdd": null,
-                "notes": 46.89
+                "notes": 46.93
             },
             "sell": {
-                "ttddtc": 48.46,
-                "notes": 48.76
+                "ttddtc": 48.5,
+                "notes": 48.8
             }
         }
     }
