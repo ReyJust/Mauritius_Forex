@@ -261,9 +261,9 @@ if __name__ == "__main__":
                 today,
             )
 
-    if len(all_unknown_banks) > 0:
-        print("3. Save unknown banks")
-        with open("unknown_banks.json", "w") as f:
-            json.dump(all_unknown_banks, f)
+    # Always write, so a resolved mapping resets the file to [].
+    print("3. Save unknown banks")
+    with open("unknown_banks.json", "w") as f:
+        json.dump(all_unknown_banks, f)
 
     exit(0)
