@@ -6,8 +6,13 @@ from bs4 import BeautifulSoup
 from urllib.request import urlopen
 from urllib.parse import urlencode, urlparse, parse_qs
 import re
+import ssl
 
 data = Path("./data/")
+
+# bom.mu serves an incomplete chain (leaf only), so bundle the missing intermediate.
+ssl_context = ssl.create_default_context()
+ssl_context.load_verify_locations("certs/sectigo_ev_r36.pem")
 
 
 def get_bank_mapping() -> dict:
@@ -66,7 +71,7 @@ def normalizeStr(_str: str) -> str:
 
 
 def get_web_page_content(url: str) -> str:
-    page = urlopen(url)
+    page = urlopen(url, context=ssl_context)
 
     return page.read().decode("utf-8")
 
